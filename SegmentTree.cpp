@@ -18,17 +18,6 @@ class SegmentTree
 		mn.assign(4*n, inf) ;
 	}
 	
-	void print()
-	{
-		// for(int x : seg) 
-		// 	cout << x << " " ;
-		// cout << "\n" ; 
-		for(int x : mx) 
-			cout << x << " " ;
-		cout << "\n" ; 
-		// for(int x : mn) 
-		// 	cout << x << " " ;
-	}
 
 	void build(int v, int l, int r, vector<int> &a)
 	{
